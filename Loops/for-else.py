@@ -8,3 +8,7 @@ for name in data:
         break
 else: # treated as fallback, if nothing breaks the loop
     print("name not found")
+
+
+if(xyz := 1+2):
+    pass
